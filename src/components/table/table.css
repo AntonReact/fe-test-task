@@ -1,0 +1,54 @@
+table {
+  width: 100%;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+thead th {
+  border: 1px solid gainsboro;
+}
+
+tbody tr {
+  min-height: 100px;
+}
+
+tbody td {
+  border: 1px solid gainsboro;
+  text-align: center;
+  padding: 5px;
+}
+
+tbody td img {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.types {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.types>div {
+  display: inline-block;
+  background-color: slategrey;
+  color: white;
+  width: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.no-data {
+  text-align: center;
+  margin: 20px;
+  color: grey;
+}
+
+.no-data div {
+  margin: 5px;
+}

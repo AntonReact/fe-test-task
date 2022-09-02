@@ -1,0 +1,7 @@
+.textbox {
+  display: flex;
+}
+
+.textbox button {
+  margin-left: 5px;
+}
